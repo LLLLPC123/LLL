@@ -34,8 +34,10 @@ otu1 <- read.csv('presence data of source.csv', row.names = 1)
 #otu2 <- read.csv('log-count data of stimulated sink.csv', row.names = 1)
 
 #otu2 <- read.csv('presence data of identification thresholds.csv', row.names = 1)
-#otu2 <- read.csv('relative abundance data of identification thresholds.csv', row.names = 1)
-
+#otu2 <- read.csv('f__AKAU3564_sediment_group relative abundance identification thresholds.csv', row.names = 1)
+#otu2 <- read.csv('f__Desulfuromonadaceae relative abundance identification thresholds.csv', row.names = 1)
+#otu2 <- read.csv('g__Geobacter relative abundance identification thresholds.csv', row.names = 1)
+#otu2 <- read.csv('o__Dehalococcoidales relative abundance identification thresholds.csv', row.names = 1)
 otu1$Group<- as.factor(otu1$Group)
 #otu2$Group<- as.factor(otu2$Group)
 
